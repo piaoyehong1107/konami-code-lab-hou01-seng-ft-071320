@@ -18,7 +18,7 @@ function init() {
       if (key === alphabet[index]) {
            index++;
             if (index === alphabet.length) {
-              alert("Hurray!");
+              alert("Congratulations!");
  
       index = 0;
     }
