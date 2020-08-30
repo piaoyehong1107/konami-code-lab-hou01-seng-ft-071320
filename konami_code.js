@@ -21,7 +21,7 @@ function init() {
               alert("Congratulations!");
                 index = 0;
               }
-            }else {
+     }else {
     index = 0;
   }
 }
