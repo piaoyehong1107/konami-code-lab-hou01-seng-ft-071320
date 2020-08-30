@@ -15,11 +15,10 @@ let index = 0;
 function init() {
   document.body.addEventListener("keydown", (event) => {
     const key=event.key
-  if (key === alphabet[index]) {
-    index++;
- 
-    if (index === alphabet.length) {
-      alert("Hurray!");
+      if (key === alphabet[index]) {
+           index++;
+            if (index === alphabet.length) {
+              alert("Hurray!");
  
       index = 0;
     }
