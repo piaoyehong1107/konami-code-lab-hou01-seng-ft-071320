@@ -20,7 +20,7 @@ function init(e) {
     index++;
     }
     else{
-      
+      index = 0;
     }
   
   
